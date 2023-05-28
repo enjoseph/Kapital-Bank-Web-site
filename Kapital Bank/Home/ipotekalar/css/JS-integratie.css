@@ -1,0 +1,9 @@
+.selectNAV {
+    background-color: #ec3342 !important;
+    color: white !important;
+}
+
+.selectNAV:hover {
+    background-color: #eb071a !important;
+
+}

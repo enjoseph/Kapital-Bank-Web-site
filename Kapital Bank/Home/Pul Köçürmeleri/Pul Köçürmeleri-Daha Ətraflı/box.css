@@ -1,0 +1,8 @@
+.slideDown-Maxcontent {
+    height: max-content;
+}
+
+.slideDown-box {
+    height: 0;
+    overflow: hidden;
+}

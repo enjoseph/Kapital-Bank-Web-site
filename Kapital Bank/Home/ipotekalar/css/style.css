@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.redBTN {
+    color: white;
+    background-color: #ec3342;
+    padding: 15px 35px;
+    font-weight: 900;
+    border-radius: 7px;
+    font-size: 0.9vw;
+}
+
+.transparentBTN {
+    color: #ec3342;
+    font-size: 16px;
+    font-weight: 900;
+    border: 1px solid #ec3342;
+    padding: 15px 35px;
+    border-radius: 7px;
+
+}
+
+
+.selectTAG {
+    color: #ec3342 !important;
+}
+
+
+
+
+
+/* ------------ HEADER ----------- */
+.header {
+    width: 100%;
+    background-color: white;
+}
+
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+/* Brand Name */
+.header .left {
+    width: 20%;
+}
+
+.header .left img {
+    width: 8.5vw;
+    height: 2.4vw;
+}
+
+
+
+/* Navigation */
+.header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.header nav a {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    font-size: .875rem;
+    transition: 0.5s;
+}
+
+.header nav a:hover {
+    color: #ec3342;
+}
+
+
+/* Right */
+.header .right {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .right a {
+    color: white;
+    background-color: #ec3342;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 7px;
+    font-size: 0.9vw;
+}
+
+.header .right p {
+    color: #ec3342;
+    font-size: 1.125rem;
+}
+
+.header .right p i {
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+
+
+/* ----------------- mainBanner ------------- */
+.mainBanner {
+    width: 100%;
+    background-image: url(../assates/mainBanner/home-new.png);
+    padding: 10vw 0 12.7vw 0;
+    background-position-x: 100%;
+}
+
+.mainBanner .container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.mainBanner .left h1 {
+    font-size: 46px;
+    line-height: 1 !important;
+}
+
+
+.mainBanner .left p {
+    font-size: .875rem;
+    width: 20%;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.mainBanner .left a {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* ------------------- mainContent -------------- */
+
+.mainContent {
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+
+}
+
+.mainContent .container {
+    width: 80%;
+    margin: auto;
+    padding: 5vw 0 2vw 0;
+}
+
+.mainContent h1 {
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.mainContent a {
+    margin-right: 20px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(245, 245, 245);
+    padding: 13px 25px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.mainContent a:hover {
+    color: black;
+    background-color: rgb(227, 227, 227);
+}
+
+
+
+/*  advertising  */
+.advertising {
+    width: 100%;
+    display: flex;
+    margin: 10vw 0;
+    padding: 3vw 0;
+    background-color: white;
+}
+
+
+/*  advertising img*/
+.advertising .left {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertising .left img {
+    position: relative;
+    bottom: 6vw;
+}
+
+
+
+.advertising .right {
+    width: 65%;
+}
+
+.advertising .right h4 {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.advertising .right p:nth-child(3) {
+    line-height: 2;
+    color: rgb(66, 66, 66);
+    font-weight: 100;
+    width: 80%;
+}
+
+.advertising .right ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7vw;
+}
+
+.advertising .right ul span {
+    font-size: 16px;
+    display: block;
+    font-weight: 100;
+}
+
+.advertising .right ul span:first-child {
+    font-weight: 400;
+}
+
+.advertising .right p:last-child {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vw;
+}
+
+.advertising .right p:last-child a:first-child {
+    color: #ec3342;
+    background-color: transparent;
+}
+
+.advertising .right p:last-child a:last-child {
+    color: white;
+    background-color: #ec3342;
+    padding: 10px 45px;
+    display: block;
+}
+
+
+/* ----------------- articles ------------ */
+.articles {
+    width: 100%;
+}
+
+.articles .container {
+    width: 80%;
+    margin: auto;
+    padding: 5vw 0;
+}
+
+.articles .container h1 {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.articles-container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 2vw 0;
+    width: 100%;
+    appearance: none;
+}
+
+.articles-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles-title a {
+    color: black;
+}
+
+.articles-title span {
+    color: #ec3342;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 0 5px 3px 5px;
+    margin-left: 5px;
+    border: 1px solid #ec3342;
+}
+
+.articles-item {
+    width: 30%;
+    margin-right: 30px;
+    display: block;
+}
+
+.articles-item img {
+    width: 20.8vw;
+    height: 14.6vw;
+    margin-bottom: 10px;
+    object-fit:fill
+}
+
+
+
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    cursor: pointer;
+
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ec3342;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #ec3342;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+/* ----------------- Footer -------------- */
+
+.footer {
+    width: 100%;
+    padding-bottom: 2vw;
+}
+
+.footer .container {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.414);
+    padding-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer a{
+ color: rgb(75, 75, 75);
+ font-weight: 400;
+ font-size: 15px;
+}
+
+footer li {
+    line-height: 2.5;
+}
+
+
+footer li a  i {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+footer li a  span {
+    color: #ec3342;
+    font-weight: 400;
+}
+
+.partner-app {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:3vw 0;
+    border-bottom: 1px  solid rgba(128, 128, 128, 0.414) ;
+    padding-bottom: 2vw;
+}
+
+.partner {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.partner img {
+    width:8vw;
+    height: 3vw;
+}
+
+.application {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.application a {
+    display: flex;
+    background-color: #ecedef;
+    color: rgb(75, 75, 75);
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+align-items: center;
+}
+
+.application a span p:last-child{
+    font-size: 12px;
+}
+
+.application a span p:first-child{
+    font-size: 18px;
+}
+
+.application a span {
+    margin-left: 10px;
+}
+
+.application a img {
+
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+
+.sosicalMedia {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sosicalMedia p {
+   margin-bottom: 20px;
+}
+
+.sosial {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.sosial a i {
+    font-size: 20px;
+    background-color: #ecedef;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sosial a   {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}

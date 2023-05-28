@@ -1,0 +1,1119 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+p {
+    cursor: default;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* ContainerSection */
+.container {
+    width: 100%;
+}
+
+
+
+/* ------------------------------>  Search */
+.search {
+    width: 100%;
+    background-color: #f9fafb;
+    padding: 1.3vw 0;
+    position: absolute;
+    transition: 0.6s;
+}
+
+.search-container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    height: max-content;
+
+
+}
+
+.search-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.search img {
+    width: 2.4vw;
+    height: 2.4vw;
+}
+
+.search #seacrh {
+    width: 90%;
+    border: none;
+    padding: 0.65vw;
+    background-color: transparent;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+
+
+.search .fa-circle-xmark {
+    color: #b3b3b3;
+    font-size: 1.3vw;
+    padding-bottom: 0.3vw;
+    cursor: pointer;
+}
+
+#seacrhButton {
+    border: none;
+    color: #f45369;
+    cursor: pointer;
+    margin: 0 1.3vw;
+    width: 5%;
+    background-color: #f9fafb;
+}
+
+.search .fa-magnifying-glass {
+    font-size: 1.3vw;
+    font-weight: 900;
+    margin: 0 0.65vw 0 1.3vw;
+
+}
+
+#seacrhButton {
+    outline: none;
+}
+
+
+
+
+/*------------------------------> Header-Nav Section  */
+.header-nav {
+    width: 100%;
+    background-color: #404343;
+    position: relative;
+    transition: 0.6s;
+    padding-bottom: 0.60vw;
+}
+
+
+
+
+
+
+.header-nav-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 1.3vw 0;
+    height: 5vw;
+    background-color: #404343;
+    margin-left: 9.7vw;
+}
+
+
+/* HeaderSection Left */
+.header-nav-left {
+    width: 60%;
+}
+
+.header-nav-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav .brand-name {
+    width: 100%;
+}
+
+.header-nav .brand-name img {
+    width: 13.6vw;
+    height: 2.9vw;
+}
+
+
+
+/* HeaderSection Right */
+.header-nav-right a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 0.9vw;
+
+}
+
+
+.fa-location-dot {
+    color: red;
+    font-size: 1vw;
+    margin-right: 5px;
+}
+
+
+.header-nav-right span .fa-magnifying-glass {
+    color: #ff0000;
+    font-size: 0.8vw;
+    border: 1px solid #ff0000;
+    padding: 0.3vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    background-color: white;
+}
+
+.search-icon {
+    margin-bottom: 0.3vw;
+}
+
+
+
+
+
+/* -------------------------------->Search NAV */
+.search-nav {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    height: 0;
+    transition: 0.5s;
+
+}
+
+
+
+.search-nav-container {
+    width: 80%;
+    padding: 1.65vw 0;
+    margin: 30;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+
+
+
+
+.search-nav a {
+    color: #212529;
+    background-color: #e8ecf1;
+    padding: 0.5vw 0.9vw;
+    border-radius: 1.6vw;
+    font-size: 0.9vw;
+    margin-right: 0.9vw;
+}
+
+.search-nav-container ul {
+    display: flex;
+}
+
+
+
+
+
+
+
+/* ------------------------------> NavigationSection  */
+
+.navigation {
+    background-color: #404343;
+    width: 100%;
+    margin-bottom: 0.13vw;
+    position: relative;
+    color: white;
+    border-top: 1px solid white;
+
+}
+
+.navigation-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+
+/* NavigationSection LEFT */
+
+.nav-left {
+    width: 80%;
+}
+
+
+.main-nav ul li {
+    list-style-type: none;
+    margin-right: 0.6vw;
+    font-size: 0.8vw;
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, ;
+    padding: 1.7vw 0;
+
+}
+
+.main-nav ul li:hover {
+    border-bottom: 0.13vw solid #f45369;
+    cursor: pointer;
+    padding-bottom: 1.6vw;
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation RIGHT */
+
+.nav-right {
+    width: 20%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+
+.nav-right a {
+
+    background-color: #ef3e42;
+    padding: 0.32vw 0.65vw;
+    border-radius: 0.4vw;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.nav-right img {
+    width: 4.5vw;
+    height: 1.4vw;
+}
+
+
+
+.aboutCredit {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #2e3131;
+}
+
+
+
+.aboutCredit-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.aboutCredit-container p {
+    color: white;
+    line-height: 1.5;
+    font-size: 24px;
+
+}
+
+.abouts {
+    background-color: #bdc3c7;
+    color: white;
+    padding: 40px 0;
+    background-image: linear-gradient(360deg, #404343, #989898);
+
+}
+
+.abouts-container {
+    width: 80%;
+    margin: auto;
+}
+
+.abouts-container p:first-child {
+    font-size: 24px;
+
+}
+
+.abouts-container ul li {
+    line-height: 2.5;
+    list-style-type: disc;
+    font-size: 14px;
+}
+
+.abouts-container ul {
+    padding-left: 15px;
+}
+
+
+.creditsLIST {
+    display: flex;
+}
+
+.sifCredit {
+    width: 100%;
+}
+
+.footer-text {
+    border-top: 2px solid white;
+    padding: 20px 0;
+}
+
+.footer-text p {
+    text-align: center!important;
+    font-size: 16px !important;
+    line-height: 1.3;
+}
+
+.sifCredit-container p {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+.sifCredit-container p span {
+    width: 33%;
+}
+
+.sifCredit-container p:last-child,
+.sifCredit-container p:nth-child(4) {
+    background-color: #2e3131;
+}
+
+/* ------------------------------> Navigation More  */
+.nav-more {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #bdc3c7;
+}
+
+.nav-more .card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.nav-more .card ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+
+.nav-more .card ul li {
+    line-height: 2;
+}
+
+
+
+.nav-more .card {
+    padding: 50px 0 120px 0;
+}
+
+
+
+/* ------------------------------> Banner Main Section */
+
+
+.banner-main {
+    background-color: #2e3131;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    background-image: linear-gradient(360deg, #fff, #404343);
+}
+
+.banner-container {
+    width: 100%;
+    height: 70%;
+    padding-top: 1.3vw;
+
+}
+
+.slide-section {
+    display: flex;
+
+    width: 80%;
+    margin: auto;
+}
+
+.text-light-red {
+    color: #f45369;
+    margin-right: 10px;
+}
+.faiz {
+    justify-content: space-between;
+    display: flex;
+}
+
+.faiz div {
+    width: 40%;
+}
+
+.faiz div ul li {
+    width: 40%;
+line-height: 2.5;
+
+}
+
+
+/* Banner Main Section LEFT */
+.banner-container .left {
+    color: white;
+    width: 48%;
+}
+
+.banner-container .left h1 {
+    font-size: 2.2vw;
+    line-height: 3;
+}
+
+.banner-container .left p {
+    font-size: 1vw;
+    line-height: 1.2;
+}
+
+.banner-container .left .more-BTN {
+    color: white;
+    background-color: #f45369;
+    font-size: 1.3vw;
+    padding: 0.9vw 5.2vw;
+    border-radius: 0.3vw;
+    line-height: 7;
+}
+
+
+/* Banner Main Section RIGHT */
+
+.banner-container .right {
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 3.2vw;
+    height: 18.7vw;
+}
+
+.banner-container .right img {
+    width: 14.7vw;
+    height: 17.57vw;
+    margin-right: 1.9vw;
+    transition: 0.6s;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.banner-container .slide-section:last-child img {
+
+    width: 17.57vw;
+    height: 17.57vw;
+    margin-right: 1.9vw;
+
+}
+
+
+
+
+.BTN {
+    border-radius: 0.9vw;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    margin: 0 0.65vw;
+    margin-bottom: 1.3vw;
+
+}
+
+
+/* ---------------------> Visa Card Section */
+.visaCard {
+    width: 100%;
+    background-color: #a4a8ab;
+    padding: 2.8vw 0;
+    height: 26vw;
+
+}
+
+.visa-container {
+    width: 70%;
+    margin: auto;
+    height: 100%;
+
+}
+
+
+.visaCard .card {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    height: 100%;
+
+}
+
+
+
+/* Visa Card LEFT */
+
+.visa-container .img-container img {
+    position: absolute;
+    opacity: 0;
+}
+
+.visa-container .img-container {
+    width: 60%;
+    position: relative;
+    margin: 0 1.9vw;
+}
+
+.visa-container .left {
+    width: 60%;
+    display: flex;
+    height: 100%;
+}
+
+.visa-container .left img {
+    width: 25vw;
+    height: 16vw;
+
+    border-radius: 1.62vw;
+}
+
+.visa-container .left button {
+    color: #8b949c;
+    font-size: 1.8vw;
+    font-weight: 900;
+    background-color: transparent;
+
+
+}
+
+.visa-container .left button:hover {
+    color: #ef3e42;
+}
+
+.visa-container .left .button-Container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+
+}
+
+
+
+
+
+/* Visa Card RIGHT */
+.visa-container .right {
+    width: 40%;
+    color: white;
+
+}
+
+
+.visa-container .right h1 {
+    font-size: 2.3vw;
+    margin-bottom: 1.3vw;
+
+}
+
+.visa-container .right h2 {
+    font-size: 1.5vw;
+    width: 19.5vw;
+    line-height: 1.5;
+
+}
+
+.visa-container .right p {
+    font-size: 0.9vw;
+    width: 80%;
+    line-height: 1.5;
+    width: 17.9vw;
+}
+
+.visa-container .right strong {
+    font-size: 1.17em;
+}
+
+
+.visa-container .right a {
+    color: white;
+    display: block;
+    text-align: end;
+    font-size: 1vw;
+
+}
+
+.visa-container .right a:hover {
+    color: brown;
+}
+
+/*? Card 4 Special Code */
+.visaCard .card:last-child h1 {
+    font-size: 2.9vw !important;
+}
+
+.visaCard .card:last-child a {
+    line-height: 7;
+}
+
+.visa-container .right .visa-card-text {
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------> Online-resources Section */
+
+.OR-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #a4a8ab;
+    padding-bottom: 3.9vw;
+}
+
+
+
+
+/*  Online-resources Section/card */
+
+.Online-resources .card {
+    width: 49.6%;
+    background-color: #2e3131;
+    border-radius: 0 0.9vw 0.9vw 0;
+    height: 19.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3vw 3.9vw;
+    padding-bottom: 0;
+    color: white;
+}
+
+.Online-resources .card:last-child {
+    border-radius: 0.9vw 0 0 0.9vw;
+
+}
+
+.card-left-img {
+
+    width: 13vw;
+    height: 18.75VW;
+}
+
+
+
+
+.OR-container .main-left {
+    height: 100%;
+    padding: 1.9vw;
+    width: 60%;
+    position: relative;
+    left: 3.9vw;
+
+}
+
+.OR-container .main-left h2 {
+    font-size: 2.3vw;
+
+    width: max-content;
+
+}
+
+
+.OR-container a {
+    color: white;
+}
+
+
+.OR-container .card:first-child a:hover {
+    color: brown;
+}
+
+.OR-container .main-left p {
+    width: 14vw;
+    margin-bottom: 3.2vw;
+    font-size: 0.9vw;
+}
+
+.OR-container .main-right {
+
+    display: flex;
+    align-items: end;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+
+}
+
+.OR-container .card:nth-child(2) {
+    background-color: #ef3e42;
+    padding: 1.3vw 3.9vw;
+    padding-left: 2vw;
+
+}
+
+
+
+
+
+
+.OR-container img {
+    width: 13vw;
+    height: 12vw;
+}
+
+
+/*------------------------> News Section  */
+
+.news-section {
+    width: 100%;
+    background-color: #2e3131;
+    color: white;
+    padding: 3.2vw 0;
+
+}
+
+.news-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+    align-items: center;
+}
+
+
+/* News Section/HEADER */
+
+.news-section hr {
+    width: 80%;
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+    border: none;
+
+}
+
+
+
+.news-container a {
+    color: white;
+    display: block;
+    text-align: end;
+    width: 100%;
+    margin-bottom: 0.9vw;
+
+}
+
+.news-container a:hover {
+    color: brown
+}
+
+
+
+
+
+
+/* News Section/ FOOTER */
+.news-main-container {
+    width: 80%;
+    margin: auto;
+}
+
+.news-slide {
+    display: flex;
+    align-items: center;
+
+}
+
+.news-slide .news {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin: 0.3vw;
+}
+
+.news p:nth-child(2) {
+    width: 13.9vw;
+
+}
+
+/* Witdh Fixed  */
+.news span p:nth-child(2) {
+    width: max-content;
+}
+
+.news-slide .news span p:first-child {
+    border: 1px solid #f45369;
+    width: max-content;
+    border-radius: 50%;
+    font-size: 1.6vw;
+    padding: 0.65vw;
+    transition: 0.5;
+}
+
+.news-slide .news span {
+    padding: 3.2vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-slide button {
+    background-color: transparent;
+    color: #b3b3b3;
+    font-size: 1.6vw;
+    font-weight: 900;
+}
+
+
+
+/* ----------------> Margin Section */
+
+.margin-section {
+    width: 100%;
+    height: 2.6vw;
+    background-color: #575c5c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------->Footer */
+
+.footer {
+    background-color: #2e3131;
+    padding-top: 1.9vw;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.footer hr {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #3d4348;
+}
+
+/* Footer /Start */
+
+.footer-start {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* Footer/ Start- LEFT */
+.start-left {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+.start-left a,
+.start-left strong {
+    font-size: 0.9vw;
+}
+
+.start-left a:hover {
+    transition: 0.3s;
+    color: #ef3e42;
+}
+
+
+.start-left li {
+    margin-bottom: 0.9vw;
+}
+
+
+
+/* Footer /Start-RIGHT */
+.qr-right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-right img:nth-child(2) {
+    margin-bottom: 2.6vw;
+    margin-top: 1.3vw;
+    width: 120 !important;
+    height: 120 !important;
+}
+
+.qr-right h3 {
+    text-align: center;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
+
+
+.qr-right a {
+    background-color: #f45369;
+    padding: 0.3vw;
+    width: 80%;
+    color: white;
+    display: flex;
+    border-radius: 0.45vw;
+    margin-bottom: 0.65vw;
+
+}
+
+.qr-right a p:first-child {
+    font-weight: bold;
+}
+
+.qr-right a p:last-child {
+    font-weight: 100;
+    font-size: 0.8vw;
+}
+
+.qr-right a img {
+    margin: 0.5vw;
+    width: 1.75vw;
+    height: 1.1vw;
+}
+
+
+
+
+
+/* Footer/Main */
+.footer-main {
+    width: 80%;
+    margin: auto;
+    padding: 1.9vw 0 4.5vw 0;
+
+}
+
+.footer-main a {
+    margin-right: 1.9vw;
+}
+
+.footer-main a:hover {
+    color: brown;
+    transition: 0.2s;
+}
+
+.footer-main a:first-child:hover {
+    color: white !important;
+}
+
+.footer-main i {
+    font-size: 1.1vw;
+    margin-right: 5px;
+}
+
+.footer-main a:first-child i {
+    font-size: 1.1vw;
+    color: #f45369;
+}
+
+.footer-main a:first-child {
+    border: 1px solid #f45369;
+    padding: 0.3vw;
+    border-radius: 0.52vw;
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+
+
+
+
+/* Footer/END */
+.footer-end {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.9vw 0;
+}
+
+.footer-end p {
+    width: 50%;
+    font-size: 0.9vw;
+}
+
+
+.footer-end img {
+    height: 2vw;
+
+}
+
+.partner {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+
+
+
+
+@keyframes mainBanner {
+    from {}
+
+    to {}
+}
